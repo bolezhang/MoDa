@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical" >
+
+    <EditText
+        android:id="@+id/eit_newContactName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:cursorVisible="true"
+        android:ems="10"
+        android:hint="@string/call_popup_name"
+        android:inputType="textPersonName"
+        android:padding="10dp"
+        android:singleLine="true"
+        android:textColor="#509EBB"
+        android:textColorHint="#8A8A8A"
+        android:textSize="27dp" />
+
+    <EditText
+        android:id="@+id/eit_phonenumber"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:ems="10"
+        android:hint="@string/call_popup_phonenumber"
+        android:numeric="integer"
+        android:padding="10dp"
+        android:singleLine="true"
+        android:textColor="#509EBB"
+        android:textColorHint="#8A8A8A"
+        android:textSize="27dp" />
+
+</LinearLayout>

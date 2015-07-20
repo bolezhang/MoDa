@@ -1,0 +1,48 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <item
+        android:id="@+id/main_menu_settings"
+        android:icon="@drawable/main_setting"
+        android:showAsAction="ifRoom|withText"
+        android:title="Setting">
+        <menu>
+            <item
+                android:id="@+id/main_menu_about"
+                android:layout_width="wrap_content"
+                android:background="#33b5e5"
+                android:title="@string/main_settings"/>
+            <item
+                android:id="@+id/main_menu_shareApp"
+                android:layout_width="wrap_content"
+                android:title="@string/main_settings_shareapp"/>
+            <item
+                android:id="@+id/main_menu_contactMe"
+                android:layout_width="wrap_content"
+                android:title="@string/main_settings_contactme"/>
+            <item
+                android:id="@+id/main_menu_language"
+                android:layout_width="wrap_content"
+                android:title="@string/main_settings_language">
+                <menu>
+                    <item
+                        android:id="@+id/menu_language_chinese_simplify"
+                        android:layout_width="wrap_content"
+                        android:title="中文简体"/>
+                    <item
+                        android:id="@+id/menu_language_chinese_traditional"
+                        android:layout_width="wrap_content"
+                        android:title="中文繁體"/>
+                    <item
+                        android:id="@+id/menu_language_korean"
+                        android:layout_width="wrap_content"
+                        android:title="한국어"/>
+                    <item
+                        android:id="@+id/menu_language_english"
+                        android:layout_width="wrap_content"
+                        android:title="English"/>
+                </menu>
+            </item>
+        </menu>
+    </item>
+
+</menu>

@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- Strip title -->
+    <string name="title_page1">翻譯</string>
+    <string name="title_page2">快速啟動</string>
+    <string name="title_page3">記事本</string>
+    <!-- Main menu -->
+    <string name="app_name">MoDa</string>
+    <string name="main_settings">關於</string>
+    <string name="main_settings_shareapp">分享應用程序</string>
+    <string name="main_settings_language">語言設置</string>
+    <string name="main_settings_contactme">聯繫開發者</string>
+
+    <!-- Setting about -->
+    <string name="about_row1_title">執照</string>
+    <string name="about_row1_content">©2030 Gxxx Cxxx All Rights Reserved</string>
+    <string name="about_row2_title">幫助</string>
+    <string name="about_row2_content">常見問題</string>
+    <string name="about_row3_title">當前版本</string>
+    <string name="about_row3_content">1.0.1</string>
+
+    <!-- Fragment view pages -->
+    <string name="page1_translate">英語翻譯（發音）</string>
+    <string name="page2_call">打電話</string>
+    <string name="page2_hyperlink">網站鏈接</string>
+    <string name="page2_flyer">商場促銷</string>
+    <string name="page2_gallery">畫廊</string>
+    <string name="page3_note">記事本</string>
+    <string name="page3_save">存儲內容</string>
+    <string name="page3_clear">清空內容</string>
+
+    <!-- Activity Flyer -->
+    <string name="flyer_button_save">存儲</string>
+    <string name="flyer_button_clear">清空</string>
+    <string name="flyer_edditext_hint">如需要請做筆記</string>
+
+    <!-- Activity Translate -->
+    <string name="translate1">我一點英語也不會說</string>
+    <string name="translate2">洗手間在哪?</string>
+    <string name="translate3">這個什麼意思?</string>
+    <string name="translate4">我很高興</string>
+    <string name="translate5">我是一個老師</string>
+    <string name="translate6">你是哪裡人?</string>
+    <string name="translate7">你住哪裡?</string>
+    <string name="translate8">給我你點電話號碼</string>
+    <string name="translate9">我在哪裡可以買到票?</string>
+    <string name="translate10">我們在哪裡見?</string>
+    <string name="translate11">我可以用下你電話嗎?</string>
+    <string name="translate12">我每天6點起床</string>
+    <string name="translate13">你抽煙嗎?</string>
+    <string name="translate14">下雪了我出不去</string>
+    <string name="translate15">一切都會好的</string>
+    <string name="translate16">我下午要去學英語</string>
+    <string name="translate17">英語很難學</string>
+    <string name="translate18">請給我看一下菜單好嗎？</string>
+    <string name="translate19">請把賬單給我好嗎？</string>
+    <string name="translate20">我喝得太多了</string>
+    <string name="translate21">我戒煙了</string>
+    <string name="translate22">借個火好嗎？</string>
+    <string name="translate23">這個位子有人坐嗎？</string>
+    <string name="translate24">你能給我換些零錢嗎？</string>
+    <string name="translate25">這款鞋有沒有7號的呢？</string>
+    <string name="translate26">今天過的愉快嗎？</string>
+    <string name="translate27">你明天有空嗎？</string>
+    <string name="translate28">今天是星期幾？</string>
+    <string name="translate29">我們去唱卡拉OK吧</string>
+    <string name="translate30">這個要多少錢？</string>
+    <string name="translate31">你家有幾口人？</string>
+    <string name="translate32">你的體重是多少？</string>
+    <string name="translate33">你有多高？</string>
+    <string name="translate34">我要修剪頭髮</string>
+    <string name="translate35">前面修短一點</string>
+    <string name="translate36">耳朵上面稍微留一些頭髮</string>
+    <string name="translate37">請問最近點銀行在哪？</string>
+    <string name="translate38">請问最近的電影院怎麼走？</string>
+    <string name="translate39">請问到火車站我該坐哪路車？</string>
+
+    <!-- Activity Translate -->
+    <string name="translateTo1">I can not speak English at all</string>
+    <string name="translateTo2">Where is the bashroom?</string>
+    <string name="translateTo3">What does this mean?</string>
+    <string name="translateTo4">I am so happy</string>
+    <string name="translateTo5">I am a teacher</string>
+    <string name="translateTo6">Where are you from?</string>
+    <string name="translateTo7">Where do you live?</string>
+    <string name="translateTo8">Give me your telephone number</string>
+    <string name="translateTo9">Where can i buy a ticket?</string>
+    <string name="translateTo10">Where will we meet?</string>
+    <string name="translateTo11">May I use your telephone?</string>
+    <string name="translateTo12">I get up at six in the morning</string>
+    <string name="translateTo13">Do you smoke?</string>
+    <string name="translateTo14">I could not go out because of the snow</string>
+    <string name="translateTo15">Everything is gonna be OK</string>
+    <string name="translateTo16">Im going to study English this afternoon</string>
+    <string name="translateTo17">English is difficult to learn</string>
+    <string name="translateTo18">May I have the menu, please?</string>
+    <string name="translateTo19">Could I have the bill, please？</string>
+    <string name="translateTo20">I drank too much</string>
+    <string name="translateTo21">I quit smoking</string>
+    <string name="translateTo22">Do you have a light?</string>
+    <string name="translateTo23">Is this seat taken?</string>
+    <string name="translateTo24">Can I trouble you for some change?</string>
+    <string name="translateTo25">Do you have these shoes in a size7?</string>
+    <string name="translateTo26">Did you have a good time?</string>
+    <string name="translateTo27">Are you free tomorrow</string>
+    <string name="translateTo28">What day is it today?</string>
+    <string name="translateTo29">Lets go to karaoke!</string>
+    <string name="translateTo30">How much does this cost?</string>
+    <string name="translateTo31">How many people are in your family?</string>
+    <string name="translateTo32">How much do you weigh?</string>
+    <string name="translateTo33">How tall are you?</string>
+    <string name="translateTo34">I would like a trim</string>
+    <string name="translateTo35">Cut it short in the front</string>
+    <string name="translateTo36">Leave just a little over the ears</string>
+    <string name="translateTo37">Where is the nearest bank?</string>
+    <string name="translateTo38">How to get to the nearest cinema?</string>
+    <string name="translateTo39">Which bus should I take to railway station?</string>
+
+    <!-- Activity Call -->
+    <string name="call_num_police">報警</string>
+	<string name="call_num_findnumber">電話查詢</string>
+
+    <!-- Activity Call Popup Window -->
+    <string name="call_popup_title">添加聯繫人</string>
+    <string name="call_popup_name">請輸入姓名</string>
+    <string name="call_popup_phonenumber">請輸入號碼</string>
+    <string name="call_popup_confirm">添加</string>
+    <string name="call_popup_cancel">取消</string>
+    <string name="call_popup_alreadydelete">聯繫人已刪除</string>
+    <string name="call_popup_deleteconfirm">確定</string>
+
+    <!-- Activity gallery -->
+    <string name="gallery_title">請點擊展開圖片</string>
+
+    <!-- Activity hyperlink -->
+    <string name="link_youtube">Youtube</string>
+    <string name="link_Google">谷歌</string>
+    <string name="link_Facebook">臉書</string>
+    <string name="link_Kijiji">Kijiji</string>
+    <string name="link_Twitter">Twitter</string>
+    <string name="link_yorkbbs">約克論壇</string>
+    <string name="link_wangyi">網易郵箱</string>
+    <string name="link_baidu">百度搜索</string>
+    <string name="link_taobao">淘寶網</string>
+    <string name="link_iqiyi">愛奇藝</string>
+    <string name="link_youku">優酷網</string>
+    <string name="link_sina">新浪網</string>
+    <string name="link_amazon">Amazon</string>
+    <string name="link_ebay">Ebay</string>
+    <string name="link_jd">京東商城</string>
+    <string name="link_embassy">中國駐多倫多使館</string>
+    <string name="link_Yahoo">雅虎</string>
+    <string name="link_koreannet">韓國人網</string>
+    <string name="link_naver">Naver</string>
+    <string name="link_koreantimes">韓國時代網</string>
+
+</resources>

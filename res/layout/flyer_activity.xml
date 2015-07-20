@@ -1,0 +1,320 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/zoom_container"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content" >
+
+    <LinearLayout
+        android:id="@+id/linearlayout_wholepage"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:orientation="vertical"
+        android:padding="23dp" >
+
+        <LinearLayout
+            android:id="@+id/linearlayout_upper"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_marginBottom="10dp"
+            android:layout_weight="60"
+            android:orientation="horizontal" >
+
+            <ScrollView
+                android:layout_width="wrap_content"
+                android:layout_height="fill_parent" >
+
+                <LinearLayout
+                    android:id="@+id/linearlayout_flyer_left"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:orientation="vertical" >
+
+                    <com.moda.newClass.TouchHighlightImageButton
+                        android:id="@+id/img_tt"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="6dp"
+                        android:layout_marginRight="5dp"
+                        android:scaleType="centerCrop"
+                        android:src="@drawable/t_t_supermarket" />
+
+                    <com.moda.newClass.TouchHighlightImageButton
+                        android:id="@+id/img_fengtai"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="6dp"
+                        android:layout_marginRight="5dp"
+                        android:scaleType="centerCrop"
+                        android:src="@drawable/fengtai" />
+
+                    <com.moda.newClass.TouchHighlightImageButton
+                        android:id="@+id/img_nofrills"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="6dp"
+                        android:layout_marginRight="5dp"
+                        android:scaleType="centerCrop"
+                        android:src="@drawable/nofrills" />
+
+                    <com.moda.newClass.TouchHighlightImageButton
+                        android:id="@+id/img_loblaws"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="6dp"
+                        android:layout_marginRight="5dp"
+                        android:scaleType="centerCrop"
+                        android:src="@drawable/loblaws" />
+
+                    <com.moda.newClass.TouchHighlightImageButton
+                        android:id="@+id/img_huasheng"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="6dp"
+                        android:layout_marginRight="5dp"
+                        android:scaleType="centerCrop"
+                        android:src="@drawable/huasheng" />
+
+                    <com.moda.newClass.TouchHighlightImageButton
+                        android:id="@+id/img_metro"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="6dp"
+                        android:layout_marginRight="5dp"
+                        android:scaleType="centerCrop"
+                        android:src="@drawable/metro" />
+
+                    <com.moda.newClass.TouchHighlightImageButton
+                        android:id="@+id/img_foodbasic"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="6dp"
+                        android:layout_marginRight="5dp"
+                        android:scaleType="centerCrop"
+                        android:src="@drawable/foodbasic" />
+
+                    <com.moda.newClass.TouchHighlightImageButton
+                        android:id="@+id/img_costco"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="6dp"
+                        android:layout_marginRight="5dp"
+                        android:scaleType="centerCrop"
+                        android:src="@drawable/costco" />
+
+                    <com.moda.newClass.TouchHighlightImageButton
+                        android:id="@+id/img_wholefoods"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="6dp"
+                        android:layout_marginRight="5dp"
+                        android:scaleType="centerCrop"
+                        android:src="@drawable/wholefoods" />
+
+                    <com.moda.newClass.TouchHighlightImageButton
+                        android:id="@+id/img_galleria"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="6dp"
+                        android:layout_marginRight="5dp"
+                        android:scaleType="centerCrop"
+                        android:src="@drawable/galleria" />
+
+                    <com.moda.newClass.TouchHighlightImageButton
+                        android:id="@+id/img_longos"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="6dp"
+                        android:layout_marginRight="5dp"
+                        android:scaleType="centerCrop"
+                        android:src="@drawable/longos" />
+
+                    <com.moda.newClass.TouchHighlightImageButton
+                        android:id="@+id/img_sobeys"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="6dp"
+                        android:layout_marginRight="5dp"
+                        android:scaleType="centerCrop"
+                        android:src="@drawable/sobeys" />
+                </LinearLayout>
+            </ScrollView>
+
+            <ScrollView
+                android:layout_marginLeft="5dp"
+                android:layout_width="wrap_content"
+                android:layout_height="fill_parent" >
+
+                <LinearLayout
+                    android:id="@+id/linearlayout_flyer_right"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="20dp"
+                    android:orientation="vertical" >
+
+                    <com.moda.newClass.TouchHighlightImageButton
+                        android:id="@+id/img_walmart"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="6dp"
+                        android:layout_marginRight="5dp"
+                        android:scaleType="centerCrop"
+                        android:src="@drawable/walmart" />
+
+                    <com.moda.newClass.TouchHighlightImageButton
+                        android:id="@+id/img_canadiantire"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="6dp"
+                        android:layout_marginRight="5dp"
+                        android:scaleType="centerCrop"
+                        android:src="@drawable/canadiantire" />
+
+                    <com.moda.newClass.TouchHighlightImageButton
+                        android:id="@+id/img_shoppers"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="6dp"
+                        android:layout_marginRight="5dp"
+                        android:scaleType="centerCrop"
+                        android:src="@drawable/shoppers" />
+
+                    <com.moda.newClass.TouchHighlightImageButton
+                        android:id="@+id/img_bestbuy"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="6dp"
+                        android:layout_marginRight="5dp"
+                        android:scaleType="centerCrop"
+                        android:src="@drawable/bestbuy" />
+
+                    <com.moda.newClass.TouchHighlightImageButton
+                        android:id="@+id/img_sears"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="6dp"
+                        android:layout_marginRight="5dp"
+                        android:scaleType="centerCrop"
+                        android:src="@drawable/sears" />
+
+                    <com.moda.newClass.TouchHighlightImageButton
+                        android:id="@+id/img_winners"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="6dp"
+                        android:layout_marginRight="5dp"
+                        android:scaleType="centerCrop"
+                        android:src="@drawable/winners" />
+
+                    <com.moda.newClass.TouchHighlightImageButton
+                        android:id="@+id/img_ikea"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="6dp"
+                        android:layout_marginRight="5dp"
+                        android:scaleType="centerCrop"
+                        android:src="@drawable/ikea" />
+
+                    <com.moda.newClass.TouchHighlightImageButton
+                        android:id="@+id/img_target"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="6dp"
+                        android:layout_marginRight="5dp"
+                        android:scaleType="centerCrop"
+                        android:src="@drawable/target" />
+
+                    <com.moda.newClass.TouchHighlightImageButton
+                        android:id="@+id/img_staples"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="6dp"
+                        android:layout_marginRight="5dp"
+                        android:scaleType="centerCrop"
+                        android:src="@drawable/staples" />
+
+                    <com.moda.newClass.TouchHighlightImageButton
+                        android:id="@+id/img_petsmart"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="6dp"
+                        android:layout_marginRight="5dp"
+                        android:scaleType="centerCrop"
+                        android:src="@drawable/petsmart" />
+
+                    <com.moda.newClass.TouchHighlightImageButton
+                        android:id="@+id/img_rona"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="6dp"
+                        android:layout_marginRight="5dp"
+                        android:scaleType="centerCrop"
+                        android:src="@drawable/rona" />
+
+                    <com.moda.newClass.TouchHighlightImageButton
+                        android:id="@+id/img_futureshop"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="6dp"
+                        android:layout_marginRight="5dp"
+                        android:scaleType="centerCrop"
+                        android:src="@drawable/futureshop" />
+                </LinearLayout>
+            </ScrollView>
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/linearlayout_lower"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="0.7"
+            android:orientation="horizontal" >
+
+            <EditText
+                android:id="@+id/flyer_edittext_note"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="4"
+                android:background="@drawable/edittext_clickable_border"
+                android:gravity="left|top"
+                android:hint="@string/flyer_edditext_hint"
+                android:inputType="textMultiLine"
+                android:lines="7"
+                android:maxLines="20"
+                android:scrollHorizontally="false"
+                android:scrollbars="vertical"
+                android:singleLine="false" >
+
+                <requestFocus />
+            </EditText>
+
+            <LinearLayout
+                android:id="@+id/linearlayout_buttons"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1.3"
+                android:orientation="vertical"
+                android:paddingLeft="5dp" >
+
+                <Button
+                    android:id="@+id/button_save"
+                    android:layout_width="wrap_content"
+                    android:layout_height="0dp"
+                    android:layout_marginBottom="5dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/edittext_clickable_border"
+                    android:text="@string/flyer_button_save" />
+
+                <Button
+                    android:id="@+id/button_clear"
+                    android:layout_width="wrap_content"
+                    android:layout_height="0dp"
+                    android:layout_marginBottom="10dp"
+                    android:layout_marginTop="5dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/edittext_clickable_border"
+                    android:text="@string/flyer_button_clear" />
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+
+</FrameLayout>

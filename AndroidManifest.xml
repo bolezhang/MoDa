@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.moda"
+    android:versionCode="1"
+    android:versionName="1.1" >
+
+    <uses-sdk
+        android:minSdkVersion="16"
+        android:targetSdkVersion="19" />
+
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+    <uses-permission android:name="android.permission.VIBRATE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/moda"
+        android:label="@string/app_name"
+        android:theme="@android:style/Theme.Holo.Light" >
+
+        <!-- Splash screen -->
+        <activity
+            android:name="com.moda.activity.SplashScreen"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+            </intent-filter>
+        </activity>
+        <!-- Main Activity -->
+        <activity
+            android:name="com.moda.activity.MainActivity"
+            android:label="@string/app_name"
+            android:windowSoftInputMode="stateHidden" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.moda.activity.Activity_Translate"
+            android:label="@string/page1_translate" >
+        </activity>
+        <activity
+            android:name="com.moda.activity.Activity_Hyperlink"
+            android:label="@string/page2_hyperlink" >
+        </activity>
+        <activity
+            android:name="com.moda.activity.Activity_Call"
+            android:label="@string/page2_call"
+            android:uiOptions="splitActionBarWhenNarrow" >
+        </activity>
+        <!-- android:uiOptions="splitActionBarWhenNarrow" -->
+        <activity
+            android:name="com.moda.activity.Activity_Flyer"
+            android:label="@string/page2_flyer"
+            android:windowSoftInputMode="stateHidden|adjustResize" >
+        </activity>
+        <activity
+            android:name="com.moda.activity.Activity_Setting"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name="com.moda.activity.Activity_Zoom"
+            android:label="@string/page2_gallery" >
+        </activity>
+    </application>
+
+</manifest>
